@@ -1,0 +1,58 @@
+#container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    border: 1px solid white;
+    background-color: rgb(252, 241, 159);
+    margin-top: 7vh;
+    margin-bottom: 1vh;
+    height: 73vh;
+    border: 1px solid black;
+}
+
+#progress{
+    width: 80vw;
+    cursor: pointer;
+    margin-left: 10vw;
+}
+
+#time{
+    display: grid;
+    margin-left: 10vw;
+    grid-template-columns: 40vw 40vw;
+    margin-right: 10vw;
+}
+
+#current{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#duration{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#song-name{
+    margin-left: 10vw;
+    width: 15vw;
+    height: 5vh;
+    font-size: 20px;
+}
+
+.play-pause-button{
+    margin-left: 50vw;
+    width: 2vw;
+    height: 4vh;
+    margin-top: -5vh;
+    border-radius: 16vmin;
+    display: block;
+}
+
+.play-pause-button img{
+    width: 4vw;
+    height: 8vh;
+    background-size: cover;
+    cursor: pointer;
+}
